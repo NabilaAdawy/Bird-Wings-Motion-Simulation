@@ -7,6 +7,4 @@ https://www.geogebra.org/calculator/ckuxrbtj
 
 # Motion Animation of the design
 
-
-https://user-images.githubusercontent.com/22743949/162501152-b84e068f-2f19-4060-a89c-7b12feb3a29b.mp4
-
+![motion_Animation](https://user-images.githubusercontent.com/22743949/162501330-d8abf152-c442-46c8-87cb-214890e9a928.gif)
