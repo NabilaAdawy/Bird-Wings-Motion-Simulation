@@ -21,5 +21,5 @@ Here the goal is to design a mechanism that simulates the motion of the bird win
 ### Motion Animation of the design (Dynamics Simulation):
 ![motion_Animation](https://user-images.githubusercontent.com/22743949/162501330-d8abf152-c442-46c8-87cb-214890e9a928.gif)
 
-#CAE Analysis
+# CAE Analysis
 Here the goal is to make static structural analysis for the mechanism to determine the stresses, strains, and the displacements, resulted from the forces in the structure. I chose this type of analysis because there are no time-varying forces/loads in the mechanism. Hence, we will study how steady-state inertial forces affects on the mechanism structure. The tool used is Fusion360.
