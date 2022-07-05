@@ -1,0 +1,25 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+system1 = GetSystem(Name="SYS")
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Edit()
+template1 = GetTemplate(
+    TemplateName="Static Structural",
+    Solver="ANSYS")
+system2 = template1.CreateSystem()
+modelComponent1 = system1.GetComponent(Name="Model")
+modelComponent2 = system2.GetComponent(Name="Model")
+modelComponent1.TransferData(TargetComponent=modelComponent2)
+modelComponent2.Refresh()
+model1.Exit()
+modelComponent2.Refresh()
+modelComponent2.Update(AllDependencies=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+Save(Overwrite=True)
+setup1 = system2.GetContainer(ComponentName="Setup")
+setup1.Edit()
+Save(Overwrite=True)
+Save(Overwrite=True)

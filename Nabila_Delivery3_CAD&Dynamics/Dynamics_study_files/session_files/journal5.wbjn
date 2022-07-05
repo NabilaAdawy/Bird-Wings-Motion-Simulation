@@ -1,0 +1,12 @@
+# encoding: utf-8
+# 2022 R1
+SetScriptVersion(Version="22.1.217")
+system1 = GetSystem(Name="SYS 1")
+setup1 = system1.GetContainer(ComponentName="Setup")
+setup1.Edit()
+model1 = system1.GetContainer(ComponentName="Model")
+model1.Exit()
+system2 = GetSystem(Name="SYS")
+setup2 = system2.GetContainer(ComponentName="Setup")
+setup2.Edit()
+Save(Overwrite=True)

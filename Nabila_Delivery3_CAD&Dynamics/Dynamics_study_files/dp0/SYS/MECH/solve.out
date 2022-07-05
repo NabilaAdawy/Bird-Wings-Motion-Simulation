@@ -1,0 +1,422 @@
+    *-------------------------------------------------------------*
+    |                                                             |
+    |  W E L C O M E   T O   T H E   A N S Y S (R)  P R O G R A M |
+    |                                                             |
+    *-------------------------------------------------------------*
+    ***************************************************************
+    *                  ANSYS 2022 R1 LEGAL NOTICES                *
+    ***************************************************************
+    *                                                             *
+    * Copyright 2022 SAS IP, Inc.  All rights reserved.           *
+    * Unauthorized use, distribution or duplication is            *
+    * prohibited.                                                 *
+    * ANSYS is a registered trademark of ANSYS, Inc or its        *
+    * subsidiaries in the United States or other countries.       *
+    *                                                             *
+    * ANSYS, Inc. is UL registered                                *
+    * ISO 9001:2008 Companies.                                    *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * THIS ANSYS SOFTWARE PRODUCT AND PROGRAM DOCUMENTATION       *
+    * INCLUDE TRADE SECRETS AND CONFIDENTIAL AND PROPRIETARY      *
+    * PRODUCTS OF ANSYS, INC., ITS SUBSIDIARIES, OR LICENSORS.    *
+    * The software products and documentation are furnished by    *
+    * ANSYS, Inc. or its subsidiaries under a software license    *
+    * agreement that contains provisions concerning               *
+    * non-disclosure, copying, length and nature of use,          *
+    * compliance with exporting laws, warranties, disclaimers,    *
+    * limitations of liability, and remedies, and other           *
+    * provisions.  The software products and documentation may be *
+    * used, disclosed, transferred, or copied only in accordance  *
+    * with the terms and conditions of that software license      *
+    * agreement.                                                  *
+    *                                                             *
+    * See the ANSYS, Inc. online documentation or the ANSYS, Inc. *
+    * documentation CD for the complete Legal Notice.             *
+    *                                                             *
+    ***************************************************************
+    *                                                             *
+    * This product is subject to US laws governing export and     *
+    * re-export.                                                  *
+    *                                                             *
+    * For U.S. Government users, except as specifically granted   *
+    * by the ANSYS, Inc. software license agreement, the use,     *
+    * duplication, or disclosure by the United States Government  *
+    * is subject to restrictions stated in the ANSYS, Inc.        *
+    * software license agreement and FAR 12.212 (for non-DOD      *
+    * licenses).                                                  *
+    *                                                             *
+    ***************************************************************
+    Version No 22,2021,319,1
+
+
+    Ansys Mechanical Enterprise
+
+    ______________________________________________________________________________________________________________________________
+    Initializing transient simulation
+
+
+
+    Position correction is enabled.
+    Velocity correction is enabled.
+    Correction uses Pure Kinematic.
+    Assembly uses Inertia Matrix.
+
+
+    Creating Internal Loads
+    Creating Flexible Bodies Internal Drivers
+    Updating Loads and Drivers Based On Internal Joint Representation
+    Updating Stops Based On Internal Joint Representation
+    Creating Stops Contact Points
+    Updating Relations Based On Internal Joint Representation
+    Initializing Transient Analysis
+
+    ______________________________________________________________________________________________________________________________
+    Starting assembly simulation
+
+    De-activating Driver Joint - Rotation ( Load Step 1 )
+    De-activating Driver Joint - Rotation ( Load Step 2 )
+    De-activating Driver Joint - Rotation ( Load Step 3 )
+    De-activating Driver Joint - Rotation ( Load Step 4 )
+    De-activating Driver Joint - Rotation ( Load Step 5 )
+    De-activating Driver Joint - Rotation ( Load Step 6 )
+    De-activating Driver Joint - Rotation ( Load Step 7 )
+    De-activating Driver Joint - Rotation ( Load Step 8 )
+    De-activating Driver Joint - Rotation ( Load Step 1 )
+    De-activating Driver Joint - Rotation ( Load Step 2 )
+    De-activating Driver Joint - Rotation ( Load Step 3 )
+    De-activating Driver Joint - Rotation ( Load Step 4 )
+    De-activating Driver Joint - Rotation ( Load Step 5 )
+    De-activating Driver Joint - Rotation ( Load Step 6 )
+    De-activating Driver Joint - Rotation ( Load Step 7 )
+    De-activating Driver Joint - Rotation ( Load Step 8 )
+    Convergence reached after 1 Iteration
+
+
+    Analysis of model redundancies:
+    Joint Revolute - part3_1|Body1 To NProjMAM22.01.02.003|Body1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+    Joint Planar - part3_1|Body1[3] To link_h_1|link_h_1-1|Body1 shows some constraint redundancies
+    Y Rotation constraint equation was at time redundant
+    Joint Planar - part3_1|Body1 To link_h|link_h-0|Body1 shows some constraint redundancies
+    Y Rotation constraint equation was at time redundant
+    Joint Revolute - part3_1|Body1[3] To NProjMAM22.01.02.003|Body1[2] shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
+ 
+
+    _________________________________________________________________________
+    Starting transient simulation
+
+    Using Runge-Kutta 4 time integration
+
+    Model Summary:
+
+    Number of effective bodies: 22
+    Total Number of Joints: 25 (21 based on degrees of freedom, 4 based on constraint equations)
+        2 Joints of Type Planar
+        12 Joints of Type Revolute
+        11 Joints of Type Weld
+
+    Number of Physical Degrees of Freedom: 10
+
+    _________________________________________________________________________
+
+
+    Time:      0 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+
+    End of Transient Initialization
+    Current Time:      0 s Current time step 0.01 s
+    Current Time:   0.42 s Current time step 0.05 s
+    Current Time:   0.92 s Current time step 0.05 s
+
+    Time:      1 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 3.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      1 s Processing Event "Load step transition 0"
+    Current Time:    1.4 s Current time step 0.05 s
+    Current Time:    1.9 s Current time step 0.05 s
+
+    Time:      2 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 5.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      2 s Processing Event "Load step transition 1"
+    Current Time:  2.281 s Current time step 0.0393179 s
+    Current Time:  2.613 s Current time step 0.0191037 s
+    Current Time:  2.833 s Current time step 0.0400068 s
+
+    Time:      3 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 2.926926e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      3 s Processing Event "Load step transition 2"
+    Current Time:    3.3 s Current time step 0.05 s
+    Current Time:    3.8 s Current time step 0.05 s
+
+    Time:      4 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 5.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      4 s Processing Event "Load step transition 3"
+    Current Time:   4.25 s Current time step 0.05 s
+    Current Time:   4.75 s Current time step 0.05 s
+
+    Time:      5 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 5.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      5 s Processing Event "Load step transition 4"
+    Current Time:    5.2 s Current time step 0.05 s
+    Current Time:  5.639 s Current time step 0.0226034 s
+    Current Time:   5.95 s Current time step 0.015055 s
+
+    Time:      6 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 1.584478e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      6 s Processing Event "Load step transition 5"
+    Current Time:   6.15 s Current time step 0.0270862 s
+    Current Time:  6.578 s Current time step 0.05 s
+
+    Time:      7 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is inactive
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 2.223092e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      7 s Processing Event "Load step transition 6"
+    Current Time:   7.05 s Current time step 0.05 s
+    Current Time:   7.55 s Current time step 0.05 s
+
+    Time:      8 s - Status of loads and joint conditions
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is active
+     - Joint Condition "Joint - Rotation ( Load Step 0 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 1 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 2 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 3 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 4 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 5 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 6 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 7 )" is inactive
+     - Joint Condition "Joint - Rotation ( Load Step 8 )" is active
+ 
+    Carry over time step is on.
+    Automatic time step is on.
+    Current time step = 5.000000e-02
+    Min time step = 1.000000e-07
+    Max time step = 5.000000e-02
+    Time:      8 s Processing Event "Load step transition 7"
+    Current Time:      8 s Current time step 0.05 s
+    Current Time:    8.5 s Current time step 0.05 s
+    Current Time:  8.858 s Current time step 0.0298341 s
+
+    ______________________________________________________________________________________________________________________________
+
+    Total number of time steps: 210
+    Average time step: 0.0420561
+
+    Number of rejected time steps: 4
+    Number of discontinuities: 8
+    Number of saved transient configurations: 219
+    Maximum relative error: 0.0191772 (%)
+    Number of position correction iterations: 219
+    Number of velocity correction steps: 208
+
+    End of Transient Simulation. CPU Time 0.53125 Elapsed Time 0.455
+
+
+    ______________________________________________________________________________________________________________________________
+
+    Analysis of model redundancies:
+    Joint Revolute - part3_1|Body1 To NProjMAM22.01.02.003|Body1 shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+    Joint Planar - part3_1|Body1[3] To link_h_1|link_h_1-1|Body1 shows some constraint redundancies
+    Y Rotation constraint equation was at time redundant
+    Joint Planar - part3_1|Body1 To link_h|link_h-0|Body1 shows some constraint redundancies
+    Y Rotation constraint equation was at time redundant
+    Joint Revolute - part3_1|Body1[3] To NProjMAM22.01.02.003|Body1[2] shows some constraint redundancies
+    Z Translation constraint equation was at time redundant
+    X Rotation constraint equation was at time redundant
+    Y Rotation constraint equation was at time redundant
+ 
